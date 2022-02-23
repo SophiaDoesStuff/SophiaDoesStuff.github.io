@@ -1,7 +1,15 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
 body {
 }
 
 section.dramatis {
+  border: 20px solid red;
+  margin: 3em auto;
+  width: 70%;
 }
 
 section.play {
@@ -11,6 +19,11 @@ div.sceneImage {
 }
 
 h1.act {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 3em;
 }
 
 p.character {
@@ -39,6 +52,9 @@ p.play_location {
 }
 
 p.prose {
+  display: block;
+  position: relative;
+  right: -5em;
 }
 
 h2.scene {
@@ -51,9 +67,9 @@ h2.stagedirection {
 }
 
 p.verseline {
-  display: block;
   position: relative;
-  right: -5em;
+  right: -6em;
+  top: -5px;
 }
 
 span.character_role {
