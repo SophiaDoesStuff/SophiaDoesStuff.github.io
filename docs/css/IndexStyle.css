@@ -108,6 +108,14 @@ main {
     margin-top: -3cm auto;
 }
 
+.couple {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -19cm;
+    width: 24%;
+}
+
 figure {
     flex-basis: 380px;
     flex-grow: 0;
@@ -125,7 +133,7 @@ img {
     padding: 1cm;
     flex-basis: 400px;
     flex-grow: 1;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .top {
@@ -149,11 +157,12 @@ p {
 h1, h2 {
     font-family: Didot,'Times New Roman', Times, serif;
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
+    color: black;
 }
 
 h1 {
-    margin-top: 1.5cm;
+    margin-top: 2cm;
 }
 
 h2 {
@@ -163,6 +172,37 @@ h2 {
 .first {
     color: black;
     text-indent: 5%;
+}
+
+a h1 {
+    color: #AD0000;
+    margin-top: 20px;
+    margin-left: 4.5cm;
+}
+
+a h1:hover {
+    color: #ED8B8B;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.credit1, .credit2, .credit3{
+    color: gray;
+    font-size: 16px;
+}
+
+.credit1 {
+    margin-top: 2cm;
+    margin-bottom: -4cm;
+}
+
+.credit2 {
+    margin-top: 4cm;
+    margin-bottom: -4cm;
+}
+
+.credit3 {
+    margin-top: 4cm;
 }
 
 @media screen and (max-width: 600px) {
@@ -191,8 +231,16 @@ h2 {
         font-size: 20px;
         width: 80%;
     }
+    .couple {
+        display: none;
+    }
+    a h1 {
+        margin-top: 2cm;
+        margin-left: -0.5cm;
+    }
 }
 
 .footnote {
     margin-top: 3cm;
+    color: black;
 }

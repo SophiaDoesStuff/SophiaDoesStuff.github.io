@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1em;
+    padding: 0;
+    background-color: #E5E4E4;
+}
+
+h1 {
+    justify-content: center;
+    margin-top: 3cm;
+    margin-left: 2cm;
+}
+
+h2 {
+    justify-content: center;
+    margin-top: 1cm;
+    margin-left: 6cm;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2:hover {
+    color: #AD0000;
+}
