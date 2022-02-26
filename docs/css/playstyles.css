@@ -4,26 +4,41 @@
 }
 
 body {
+  background-color: #E5E4E4;
+  margin-top: 3cm;
+  font-family: Didot, 'Times New Roman', Times, serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
 }
 
 section.dramatis {
-  border: 20px solid red;
+  border: 10px solid #AD0000;
   margin: 3em auto;
   width: 70%;
+  background-color: white;
 }
 
 section.play {
+  border: 5px solid #AD0000;
+  background-color: white;
+  margin: 2em auto;
+  width: 70%;
+  padding-right: 2.5cm;
 }
 
 div.sceneImage {
 }
 
 h1.act {
-  background-color: red;
+  background-color: #AD0000;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
   font-size: 3em;
+  margin-right: -2.4cm;
 }
 
 p.character {
@@ -31,15 +46,25 @@ p.character {
   position: relative;
   left: -7;
   top: 1em;
-  font-size: 1.1em;
+  font-size: 15px;
   width: 4em;
-  padding-left: 4px;
+  padding-left: 0.2cm;
 }
 
-p.charactername {
+p.characternamelast {
+  font-size: 17px;
+  padding-left: 7px;
+  padding-bottom: 0.7cm;
+}
+
+p.charactername2 {
+  font-size: 17px;
 }
 
 h1.dramatishead {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0.6cm;
 }
 
 h2.firstscene {
@@ -73,6 +98,7 @@ p.verseline {
 }
 
 span.character_role {
+  color: #AD0000;
 }
 
 span.stage_directions_inline {
@@ -89,4 +115,93 @@ figure {
 img {
   width: 100%;
   margin: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: -0.5cm;
+  left: -0.2cm;
+  padding-right: 1cm;
+  background-color: #ad0000b9;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+  background-color: #ad0000b9;
+}
+
+nav ul li {
+  flex: 0 0 8rem;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  display: block;
+  color: white;
+}
+
+nav ul li:hover {
+  background-color: #ad0000b9;
+}
+
+nav ul li a:hover {
+  color: #ED8B8B;
+  font-style: italic;
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li ul li {
+  flex: 0 1 auto;
+  width: 7rem;
+  margin-left: -1cm;
+}
+
+@media screen and (max-width: 700px) {
+  nav ul {
+      display: none;
+      flex-direction: column;
+  }
+  .hamburger {
+      display: block;
+      float: right;
+      cursor: pointer;
+  }
+
+  input[type="checkbox"]:checked ~ ul {
+      display: block;
+  }
+
+  li ul {
+      position: static;
+  }
+  nav ul li {
+      flex: 0 0 auto;
+      width: 100%;
+  }
 }

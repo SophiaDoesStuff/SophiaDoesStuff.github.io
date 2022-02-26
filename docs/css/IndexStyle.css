@@ -16,7 +16,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ad0000;
+    background-color: #ad0000b9;
 }
 
 input[type="checkbox"] {
@@ -39,7 +39,7 @@ nav ul {
 li ul {
     display: none;
     position: absolute;
-    background-color: #AD0000;
+    background-color: #ad0000b9;
 }
 
 nav ul li {
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    background-color: #AD0000;
+    background-color: #ad0000b9;
 }
 
 nav ul li a:hover {
