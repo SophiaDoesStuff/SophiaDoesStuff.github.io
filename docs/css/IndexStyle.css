@@ -45,6 +45,7 @@ li ul {
 nav ul li {
     flex: 0 0 8rem;
     text-align: center;
+    display: block;
 }
 
 nav ul li a {
@@ -52,10 +53,6 @@ nav ul li a {
     padding: 0.8rem 1rem;
     display: block;
     color: white;
-}
-
-nav ul li:hover {
-    background-color: #ad0000b9;
 }
 
 nav ul li a:hover {
