@@ -361,7 +361,7 @@ li.Home {
 @media screen and (max-width: 800px) {}
 
   audio {
-    margin-top: 1cm;
+    display: none;
   }
 
   html {
