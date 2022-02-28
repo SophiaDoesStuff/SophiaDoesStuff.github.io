@@ -360,6 +360,10 @@ li.Home {
 
 @media screen and (max-width: 800px) {}
 
+  audio {
+    margin-top: 1cm;
+  }
+
   html {
     scroll-padding-top: 75px;
   }
