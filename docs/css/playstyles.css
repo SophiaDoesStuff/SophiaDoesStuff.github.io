@@ -290,6 +290,16 @@ li.Home {
     font-size: 14px;
   }
 
+  p.verseline {
+    position: relative;
+    top: -8.5px;
+  }
+
+  p.prose {
+    display: block;
+    position: relative;
+    top: -8.5px;
+  }
 
   p.charactername2 {
     font-size: 15px;
