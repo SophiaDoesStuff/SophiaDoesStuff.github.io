@@ -158,12 +158,6 @@ img {
   margin-top: -11cm;
 }
 
-.grapes {
-  width: 80%;
-  margin-right: -7cm;
-  margin-top: -11cm;
-}
-
 .roses {
   width: 60%;
   margin-right: -5cm;
@@ -405,9 +399,6 @@ li.Home {
     font-size: 20px;
   }
   .rose1 {
-    display: none;
-  }
-  .grapes {
     display: none;
   }
   .roses {
