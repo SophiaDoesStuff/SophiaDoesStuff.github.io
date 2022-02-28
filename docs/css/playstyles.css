@@ -13,6 +13,12 @@ body {
   font-family: Didot, 'Times New Roman', Times, serif;
 }
 
+audio {
+  margin: 3em;
+  width: 100%;
+  
+}
+
 .title {
   text-align: center;
   font-size: 40px;
