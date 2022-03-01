@@ -351,14 +351,14 @@ li.Home {
   }
 
   .backtotop {
-    right: 0.1px;
+    right: 0.3px;
   }
 
   .backtotop a {
-    font-size: 3em;
+    font-size: 4em;
   }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 900px) {}
 
   audio {
     display: none;
@@ -368,48 +368,91 @@ li.Home {
     scroll-padding-top: 75px;
   }
 
+  h1.title {
+    font-size: 25px;
+  }
+
+  h1.dramatishead {
+    font-size: 23px;
+  }
+
+  main {
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+  }
+
   section.dramatis {
-    width: 80%;
+    width: 100%;
   }
 
   section.play {
-    width: 80%;
+    width: 100%;
     font-size: 14px;
+    margin: 0cm auto;
   }
 
   p.character {
+    position: relative;
     font-size: 14px;
   }
 
   p.verseline {
     position: relative;
+    font-size: 13px;
+    margin-top: 9px;
   }
 
   p.prose {
     position: relative;
+    font-size: 13px;
+    margin-top: 9px;
+  }
+
+  span.character_role {
+    font-size: 14px;
   }
 
   p.charactername2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   p.characternamelast {
-    font-size: 15px;
+    font-size: 14px;
   }
+
   h1.act {
-    font-size: 25px;
+    font-size: 20px;
   }
+
   h2.firstscene, h2.scene {
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: 0.5cm;
+    margin-right: -2cm;
   }
+
   h2.location {
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0.5cm;
+    margin-right: -2cm;
   }
   h2.stagedirection, span.stagenames {
-    font-size: 17px;
+    font-size: 14px;
+    margin-left: 0.5cm;
   }
+h2.stagedirection {
+  margin-right: -2cm;
+}
+
+span.stagenames {
+  margin-right: 0.5cm;
+}
+
   h2.stagedirectiontext {
-    font-size: 17px;
+    font-size: 14px;
+    margin-left: 0.5cm;
+    margin-right: -2cm;
   }
   h1.TheEnd {
     font-size: 20px;
