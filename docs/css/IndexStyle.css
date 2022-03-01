@@ -154,6 +154,7 @@ h1, h2 {
     text-align: left;
     font-size: 25px;
     color: black;
+    padding-left: 1.5cm;
 }
 
 h1 {
@@ -261,7 +262,8 @@ a h1:hover {
 }
 
 .footnote {
-    margin-top: 3cm;
     color: black;
     font-size: 14px;
+    margin-left: 0.5cm;
+    padding-bottom:0.2cm;
 }
